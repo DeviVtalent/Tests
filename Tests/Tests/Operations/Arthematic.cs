@@ -26,12 +26,9 @@ namespace Tests.Operations
             return a * b;
 
         }
-        public void Div()
+        public int Division(int a,int b)
         {
-            int a = 10;
-            int b = 20;
-            int c= a * b;
-
+           return a/b;
         }
 
     }
