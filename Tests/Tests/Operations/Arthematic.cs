@@ -28,7 +28,10 @@ namespace Tests.Operations
         }
         public void Div()
         {
-           
+            int a = 10;
+            int b = 20;
+            int c= a * b;
+
         }
 
     }
