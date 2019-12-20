@@ -7,21 +7,19 @@ namespace Tests.Operations
 {
     public class Arthematic
     {
-        static void Main(string[] args)
-        {
-            int Addition()
+           public int Addition()
            {
                 int a = 10, b = 20;
                 int c = a+ b;
                 return c;
-           }
-            public int Subtraction(int a,int b)
-            {
-            return a-b;
-            }
+           }       
                 
 
+        
+        public int Subtraction(int a, int b)
+        {
+            return a - b;
         }
-       
+
     }
 }
