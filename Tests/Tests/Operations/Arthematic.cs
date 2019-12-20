@@ -15,6 +15,11 @@ namespace Tests.Operations
                 int c = a+ b;
                 return c;
            }
+            public int Subtraction(int a,int b)
+            {
+            return a-b;
+            }
+                
 
         }
        
